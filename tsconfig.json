@@ -1,0 +1,64 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "angular-connectivity": [
+        "dist/angular-connectivity"
+      ],
+      "angular-connectivity/*": [
+        "dist/angular-connectivity/*"
+      ],
+      "angular-pipe-filter": [
+        "dist/angular-pipe-filter"
+      ],
+      "angular-pipe-filter/*": [
+        "dist/angular-pipe-filter/*"
+      ],
+      "angular-sort-filter": [
+        "dist/angular-sort-filter"
+      ],
+      "angular-sort-filter/*": [
+        "dist/angular-sort-filter/*"
+      ],
+      "angular-pipe-sort": [
+        "dist/angular-pipe-sort"
+      ],
+      "angular-pipe-sort/*": [
+        "dist/angular-pipe-sort/*"
+      ],
+      "angular-pipe-sort2": [
+        "dist/angular-pipe-sort2"
+      ],
+      "angular-pipe-sort2/*": [
+        "dist/angular-pipe-sort2/*"
+      ],
+      "angular-pipes-module": [
+        "dist/angular-pipes-module"
+      ],
+      "angular-pipes-module/*": [
+        "dist/angular-pipes-module/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
