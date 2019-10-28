@@ -2,8 +2,7 @@ import {Pipe, PipeTransform} from '@angular/core';
 
 @Pipe({ name: 'sortObjects' })
 export class SortObjectsPipe implements PipeTransform {
-    // Currently can only sort where (typeof input[field] === "string")
-    // Will enhance later to support numbers and dates
+    // Sort objects either accending or decending by comparing one of the object's properites
     transform(input: object[], field: string, desc = false): object[] {
         if (input && field) {
             return input.sort((a: object, b: object) => {
