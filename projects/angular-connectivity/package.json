@@ -1,6 +1,9 @@
 {
   "name": "angular-connectivity",
   "version": "1.0.1",
+  "scripts": {
+    "postinstall": "ngcc"
+  },
   "peerDependencies": {
     "@angular/common": "^9.0.1",
     "@angular/core": "^9.0.1"
