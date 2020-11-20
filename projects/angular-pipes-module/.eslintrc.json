@@ -38,6 +38,9 @@
             "accessibility": "explicit"
           }
         ],
+        "@typescript-eslint/member-ordering": [
+          "off"
+        ],
         "arrow-parens": [
           "off",
           "always"
