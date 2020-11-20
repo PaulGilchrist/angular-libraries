@@ -1,14 +1,22 @@
 {
-  "name": "angular-connectivity",
-  "version": "1.0.2",
-  "scripts": {
-    "postinstall": "ngcc"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
-  },
-  "peerDependencies": {
-    "@angular/common": "^11.0.2",
-    "@angular/core": "11.0.2"
-  }
+    "authors": [
+        "Paul Gilchrist"
+    ],
+    "description": "Subscribe to a behavior subject that tracks Internet connectivity",
+    "name": "angular-connectivity",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PaulGilchrist/angular-libraries.git"
+    },
+    "version": "1.0.2",
+    "scripts": {
+        "postinstall": "ngcc"
+    },
+    "dependencies": {
+        "tslib": "^2.0.0"
+    },
+    "peerDependencies": {
+        "@angular/common": "^11.0.2",
+        "@angular/core": "11.0.2"
+    }
 }
