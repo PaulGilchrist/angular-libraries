@@ -200,7 +200,6 @@
       }
     }
   },
-  "defaultProject": "angular-libraries",
   "cli": {
     "analytics": "03d42b60-af6c-4797-98e5-113d3d6d84b6"
   }
